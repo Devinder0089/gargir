@@ -1,0 +1,14 @@
+.loginsec {
+    text-align: center;
+}
+.loginbox.formsec {
+    border: 3px solid #ccc;
+    padding: 23px 16px 30px 16px;
+    margin-top: 99px;
+    background: #fff;
+    border-radius: 5px;
+}
+body {
+    background: #084881;
+}
+

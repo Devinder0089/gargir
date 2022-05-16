@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/nandlanpro/static/css/main.9ae39449.chunk.css",
+    "main.js": "/nandlanpro/static/js/main.b80c5be7.chunk.js",
+    "main.js.map": "/nandlanpro/static/js/main.b80c5be7.chunk.js.map",
+    "runtime-main.js": "/nandlanpro/static/js/runtime-main.40db9e01.js",
+    "runtime-main.js.map": "/nandlanpro/static/js/runtime-main.40db9e01.js.map",
+    "static/css/2.4c97ca4f.chunk.css": "/nandlanpro/static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.38af6f45.chunk.js": "/nandlanpro/static/js/2.38af6f45.chunk.js",
+    "static/js/2.38af6f45.chunk.js.map": "/nandlanpro/static/js/2.38af6f45.chunk.js.map",
+    "static/js/3.8193373b.chunk.js": "/nandlanpro/static/js/3.8193373b.chunk.js",
+    "static/js/3.8193373b.chunk.js.map": "/nandlanpro/static/js/3.8193373b.chunk.js.map",
+    "index.html": "/nandlanpro/index.html",
+    "static/css/2.4c97ca4f.chunk.css.map": "/nandlanpro/static/css/2.4c97ca4f.chunk.css.map",
+    "static/css/main.9ae39449.chunk.css.map": "/nandlanpro/static/css/main.9ae39449.chunk.css.map",
+    "static/js/2.38af6f45.chunk.js.LICENSE.txt": "/nandlanpro/static/js/2.38af6f45.chunk.js.LICENSE.txt",
+    "static/media/Nadlanpro.a8c65433.png": "/nandlanpro/static/media/Nadlanpro.a8c65433.png",
+    "static/media/PayPal_logo.794b19f8.png": "/nandlanpro/static/media/PayPal_logo.794b19f8.png",
+    "static/media/amrican-logo.b9f8b63b.png": "/nandlanpro/static/media/amrican-logo.b9f8b63b.png",
+    "static/media/visa-logo.a7c2dc75.jpg": "/nandlanpro/static/media/visa-logo.a7c2dc75.jpg",
+    "static/media/whatsup-app.40e140f6.png": "/nandlanpro/static/media/whatsup-app.40e140f6.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.40db9e01.js",
+    "static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.38af6f45.chunk.js",
+    "static/css/main.9ae39449.chunk.css",
+    "static/js/main.b80c5be7.chunk.js"
+  ]
+}

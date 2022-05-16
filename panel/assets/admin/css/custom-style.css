@@ -1,0 +1,546 @@
+.prjtrow {
+    padding: 5px 0 2px 0;
+    border-bottom: 1px solid #ccc;
+    margin: 0 0 10px 0;
+}
+.prjtrow .prtitle {
+    padding: 0px 0;
+    margin: 0px;
+    font-weight: bold;
+}
+.prjtrow .prcontent{
+    padding: 0px 0;
+    margin: 0px;
+}
+.projectsecdt {
+    border: 3px solid #ccc;
+    padding: 29px 50px;
+}
+.prjrescept {
+    padding: 0px 0 5px 0;
+    margin: 0px 0 10px 0;
+}
+
+.prjrescept:after {
+    content: "";
+    background: #474796;
+    height: 3px;
+    width: 270px;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 2px;
+}
+img.imgprj {
+    width: 30px;
+    height: 30px;
+    float: left;
+}
+img.prjtimg {
+    width: 100%;
+    float: left;
+}img.prjtimg {
+    width: 100%;
+    float: left;
+}
+.alluserssec .users-list a.hypercl{
+    width: 54px;
+    height: 50px;
+}
+
+.alluserssec .users-list a>img.img-responsive {
+    width: 54px;
+    height: 50px;
+}
+
+label.control-label {
+    float: right;
+}
+textarea.form-control,select.form-control,input.form-control {
+    float: right;
+    text-align: right;
+}
+a.btn.btn-sm.bg-purple {
+    float: right;
+}
+.clumnbuy {
+    color: #ff8100;
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+.clumnsoldout{
+    color: red;
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+.prcontent {
+    font-weight: bold;
+    text-transform: capitalize;
+}
+span.clunmbuyer.clunmbuy {
+    color: #d88f09;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+span.clunmbuyer.clunmsoldout {
+    color: red;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+span.clunmusers{
+    color: #000;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+span.clunmusers.clupending {
+    color: #dc7d06;
+}
+span.clunmusers.cluseccess {
+    color: green;
+}
+
+.form-group>span {
+    float: right;
+    text-align: right;
+    padding: 15px 0 0 0;
+}
+.secimput>span {
+    float: right;
+    padding: 16px 0 0 0;
+    text-align: right;
+}
+.fullsec .form-control-feedback {
+    left: -10px;
+    right: unset !important;
+    top: 36px;
+    padding: 0px;
+    margin: 0px;
+    position: absolute;
+}
+.fullsec .form-input {
+    text-align: right;
+    float: right;
+    padding: 0px 8px 0 26px;
+}
+.secimput {
+    margin: 0px;
+    padding: 0px 0 9px 10px;
+}
+.col-update-profile {
+    padding: 18px 0;
+}
+.alluserssec .box-tools.pull-right {
+    display: none;
+}
+
+i.red{
+    color: red;
+    font-weight: bold;
+}
+
+.columnsidebar.pending-customer a.small-box-footer{
+    color: #fff;
+}
+.columnsidebar.pending-customer .small-box {
+    background: #c76e00;
+    color: #fff;
+}
+.columnsidebar.pending-customer .icon {
+    color: #fff;
+}
+
+.columnsidebar.active-customer .icon {
+    color: #fff;
+}
+span.fulluserrol {
+    color: #000;
+}
+span.emailicon.glyphicon.glyphicon-envelope {
+    position: absolute;
+    left: 7px;
+    top: 10px;
+    padding: 0px;
+}
+.columnsidebar.active-customer a.small-box-footer {
+    color: #fff;
+}
+.small-box.bg-black .icon {
+    color: #fff;
+}
+.small-box.bg-black a.small-box-footer {
+    color: #fff;
+}
+.small-box.bg-blue .icon {
+    color: #fff;
+}
+.small-box.bg-blue a.small-box-footer {
+    color: #fff;
+}
+.small-box > .small-box-footer .inner {
+    text-align: center;
+}
+.small-box.bg-yellow  .icon {
+    color: #fff;
+}
+.small-box.bg-yellow a.small-box-footer {
+    color: #fff;
+}
+.small-box.bg-purple  .icon {
+    color: #fff;
+}
+.small-box.bg-purple a.small-box-footer {
+    color: #fff;
+}
+.small-box.bg-maroon  .icon {
+    color: #fff;
+}
+.small-box.bg-maroon a.small-box-footer {
+    color: #fff;
+}
+.content {
+    min-height: 100%;
+}
+
+aside.main-sidebar.panelmainsidebar{
+    overflow: auto !important;
+}
+ul.secserviceul {
+    width: 100%;
+    float: right;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+.secserviceul>li>p {
+    text-align: right;
+}
+.secserviceul>li>p>.membershipservice {
+    float: right;
+    margin: 5px 0 0 5px;
+}
+.control-label>i.red {
+    padding: 0 5px;
+}
+
+.packgeecsecare .secservicepackg{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.packgeecsecare a.servicebt {
+    border: 1px solid #ccc;
+    padding: 23px 15px;
+    min-height: 250px;
+    background: #474796;
+    color: #fff;
+    text-align: center;
+    text-transform: capitalize;
+    margin: 0 34%;
+    width: auto;
+    display: block;
+}
+
+.packgeecsecare .secservicepackg>li>p {
+    display: inline-block;
+    padding: 0px;
+    margin: 5px 0;
+}
+
+.packgeecsecare .secservicepackg .green {
+    color: #04d804;
+    padding: 0 0 0 5px;
+}
+.membershipbuysec .membershipbuysec_card {
+    float: left;
+    margin: 0px;
+}
+.membershipbuysec .card.membershipbuyseccard {
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 20px 10px;
+    border-radius: 5px;
+}
+
+.membershipbuysec  a.membershipbuy{
+    color: #fff;
+    background: #da910a;
+    text-align: center;
+    display: inline-block;
+    font-size: 18px;
+    text-transform: capitalize;
+    border: 1px solid #000;
+}
+.contenttb h6 {
+    padding: 0px;
+    margin: 0px;
+    display: inline-block;
+}
+.contenttb h5 {
+    padding: 0px;
+    margin: 0px;
+    display: inline-block;
+}
+img.imgprj.userimgtb {
+    border-radius: 65px;
+    border: 2px solid #000;
+}
+
+h2.namefm {
+    padding: 0 13px;
+    text-align: center;
+    margin: 0 0 30px 0;
+}
+
+.control-label.titlesum {
+    text-align: right;
+}
+.control-label.titlesubms{
+      text-align: right;
+}
+.secinvicedls .invoicecontent {
+    text-align: center;
+    float: right;
+    padding: 0 21px;
+}
+.secinvicedls .invcrightcontent .titlesum {
+    padding: 0px;
+    margin: 0px 0 10px 0;
+}
+.secinvicedls .invcmaincontent {
+    margin: 10px 0 0 0;
+    padding: 45px 0 0 0;
+    border-top: 2px solid #000;
+}
+.buttonsecin .invleftbuttom>.invoicecontent {
+    text-align: left;
+    font-size: 28px;
+    color: #0073b7;
+}
+.rowsecmains .titlesubms>h4 {
+    text-align: left;
+}
+.rowsecmains .titlesubms>p{
+    text-align: left;
+}
+
+.rowsecmains .titlesubms {
+    margin: 0px;
+    padding: 0px;
+    font-weight: bold;
+}
+.settings-tab-content select {
+    width: 100%;
+}
+.sectuserdetails .sechyperprcontent {
+    text-align: center;
+    padding: 0px 0 28px 0;
+}
+
+.sectuserdetails a.hyperprcontent{
+    width: 100px;
+    border-radius: 65%;
+    height: 100px;
+    overflow: hidden;
+    display: inline-block;
+    border: 4px solid #000;
+    background: #000;
+}
+.sectuserdetails .prcontent {
+    text-transform: inherit;
+}
+.secmaimessage .docfile {
+    margin: 20px 0 0 0;
+    float: left;
+    width: 100%;
+}
+.secfullrowinvos label.control-label {
+    text-transform: capitalize;
+}
+.rowvisualsettings .form-group {
+    text-align: right;
+}
+
+.rowvisualsettings .form-group img {
+   /* background: #00000038;*/
+    margin: 0 0px 0 0;
+}
+.rowvisualsettings .form-group label.control-label {
+    width: 100%;
+}
+
+.modal-content label.control-label {
+    width: 100%;
+    text-transform: capitalize;
+}
+
+.secpermissinseca .rowsecfm {
+    padding: 15px 5px;
+    border-bottom: 1px solid #ccc;
+    margin: 0 0 10px 0;
+}
+.secpermissinseca .titleformgroup .control-label {
+    padding: 0px;
+}
+.secpermissinseca .secserviceul>li>p {
+    text-align: left;
+    text-transform: capitalize;
+    color: #7d8a79;
+
+}
+.secpermissinseca .switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 25px;
+}
+
+.secpermissinseca .secserviceul {
+    list-style: auto;
+    padding: 0 0 0 16px;
+    width: 100%;
+    float: left;
+}
+
+.secpermissinseca .switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+.secpermissinseca .titleformgroup {
+    padding: 0 5px 0 0;
+}
+.secpermissinseca .slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.secpermissinseca .slider:before {
+    position: absolute;
+    content: "";
+    height: 23px;
+    width: 30px;
+    left: 2px;
+    bottom: 1px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+.secpermissinseca input:checked + .slider {
+  background-color: #2196F3;
+}
+
+.secpermissinseca input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+.secpermissinseca input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.secpermissinseca .slider.round {
+  border-radius: 34px;
+}
+
+.secpermissinseca .slider.round:before {
+  border-radius: 50%;
+}
+.secpermissinseca .control-label {
+    text-transform: capitalize;
+}
+.secpermissinseca .prmsbgtitl {
+    background: #474796;
+    color: #fff;
+    padding-left: 9px !important;
+}
+.secpermissinseca .allperminformgroup {
+    background: #efefef;
+    color: #444242;
+    font-size: 13px;
+    text-transform: capitalize;
+    font-weight: unset !important;
+}
+
+.secpermissinseca .allperminformgroup >.permissbt {
+    margin: 5px 0 0 3px;
+    cursor: pointer;
+}
+
+.secpermissinseca .titleformgroup .subtitle {
+    font-size: 12px;
+    padding: 5px 0 0 0;
+    font-style: italic;
+    font-family: inherit;
+    color: #6c6c6f;
+}
+.small-box>a.small-box-footer>.inner>p {
+    color: #fff;
+}
+.small-box>a.small-box-footer>.inner>h3
+    color:#fff;
+}
+.resultrowsecs {
+    /*float: left;*/
+    padding: 0 16px 0 16px;
+    margin: 0px 0 6px 0;
+}
+.fullsec .form-group>span {
+    padding: 10px 0 2px 0;
+}
+
+.fullsec .fileuploasprty>input {
+    width: 100%;
+    float: left;
+    margin: 3px 0 0 0;
+    padding: 5px 5px;
+}
+.arsecrcagreements {
+    background: #fff;
+    margin: 0 0 12px 0;
+    padding: 20px 5px;
+}
+.arsecrcagreements .deletesec {
+    text-align: right;
+    padding: 6px 0 0 0;
+}
+.small-box.bg-purpledark {
+    background: #2f2b6d;
+}
+.small-box .icon,.small-box h3{
+    color: #fff;
+}
+.form-group span.glyphicon {
+    padding: 0px;
+}
+
+.secselectionbox{
+    float: left;
+    width: 100%;
+}
+.headsec{
+    float:left;
+}
+.secmsg{
+    display:none;
+     color: red;
+    text-align: center;
+    font-size: 18px;
+    padding: 5px 0;
+}
+.secmsg.active{
+    display:block;
+}

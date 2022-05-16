@@ -1,0 +1,346 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+input:focus{
+    outline: none;
+    box-shadow: none;
+}
+.btn.focus, .btn:focus{
+    outline: none;
+    box-shadow: none;
+}
+/* header css start here */
+header {
+    background: linear-gradient(45deg, #8f29ff, #d49bff);
+    width: 100%;
+}
+header .navbar .logo-header a img{
+    width: 170px;
+}
+nav .navbar-collapse ul.navbar-nav li.nav-item {
+    padding: 10px 30px;
+    margin: 0 5px;
+}
+nav .navbar-collapse ul.navbar-nav li.nav-item a.nav-link {
+    color: #fff;
+    font-size: 18px;
+}
+nav .navbar-collapse ul.navbar-nav li.nav-item a.nav-link:hover{
+    color: #5eeab5;
+}
+nav .navbar-collapse form.form-inline input.form-control.mr-4 {
+    box-shadow: none;
+    border: 1px solid transparent;
+}
+nav .navbar-collapse form.form-inline button.signup-btn {
+    background: #1bffa3d1;
+    padding: 6px 15px;
+    border-radius: 0;
+    outline: none;
+}
+nav .navbar-collapse form.form-inline button.login-btn {
+    background: #1bffa3d1;
+    padding: 6px 15px;
+    border-radius: 0;
+    outline: none;
+}
+button.navbar-toggler{
+    padding: 0;
+}
+.navbar-toggler-icon{
+    display: block;
+    width: 30px;
+    height: 4px;
+    color: #333;
+    vertical-align: middle;
+    margin: 4px 0;
+    content: "";
+    background: no-repeat center center;
+    background-size: 100% 100%;
+    background: #333;
+}
+/* dropdown css start here */
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    transform: translate(-66%, 10px);
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 10rem;
+    padding: .5rem 0;
+    margin: .125rem 0 0;
+    font-size: 1rem;
+    color: #212529;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: .25rem;
+}
+#login-dp {
+    min-width: 250px;
+    padding: 14px 14px 0;
+    overflow: hidden;
+    background-color: #fff;
+    position: absolute;
+    z-index: 75;
+}
+input#exampleInputEmail2{
+    width: 100%;
+}
+input#exampleInputPassword2{
+    width: 100%;
+}
+#login-dp .help-block{
+    font-size:12px    
+}
+#login-dp .bottom{
+    background-color:rgba(255,255,255,.8);
+    border-top:1px solid #ddd;
+    clear:both;
+    padding:14px;
+    width: 100%;
+}
+#login-dp .social-buttons{
+    margin:12px 0    
+}
+#login-dp .social-buttons a{
+    width: 49%;
+}
+#login-dp .form-group {
+    margin-bottom: 10px;
+}
+.btn-fb{
+    color: #fff;
+    background-color:#3b5998;
+}
+.btn-fb:hover{
+    color: #fff;
+    background-color:#496ebc 
+}
+.btn-tw{
+    color: #fff;
+    background-color:#55acee;
+}
+.btn-tw:hover{
+    color: #fff;
+    background-color:#59b5fa;
+}
+
+/* dropdown css ends here */
+
+/* singup modal box css start here */
+#modalRegisterForm .modal-dialog .modal-content .modal-body .md-form input{
+    width: 90%;
+    border: 0;
+    border-bottom: 1px solid #ccc;
+    border-radius: 0;
+}
+#modalRegisterForm .modal-dialog .modal-content .modal-body .md-form i{
+    font-size: 20px;
+    color: #777;
+}
+#modalRegisterForm .modal-dialog .modal-content .modal-footer button{
+    background: #00dc87;
+    width: 160px;
+    padding: 10px;
+}
+
+/* signup modal box css ends here */
+/* header css ends here */
+
+/* banner css start here */
+.banner{
+    background-image: url('../images/banner1.jpg');
+    padding: 60px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner .banner-content h1{
+    font-size: 46px;
+    font-weight: 900;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.banner .banner-content p{
+     color: #fff;
+     margin-bottom: 30px;
+     font-size: 18px;
+}
+.banner .banner-content button.banner-btn{
+    padding: 10px 30px;
+    border: 0;
+    border-radius: 0;
+    background-color: #36d291;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    outline: none;
+    transition: all 0.4s ease;
+}
+.banner .banner-content button.banner-btn:hover{
+    background-color: #d49bff;
+    color: #2d2d2d;
+    font-weight: bold;
+    font-size: 16px;
+}
+/* banner css ends here */
+
+/* trads-md start here */
+.trans-md {
+    padding: 4% 0 6% 0;
+    background: #f1f1f1;
+}
+.trans-md .bold-head h2{
+    padding: 0 0 50px 0;
+    font-weight: bold;
+    text-align: center;
+}
+.trans-md .bold-head h2:before{
+   content: '';
+    position: absolute;
+    width: 100px;
+    height: 4px;
+    background: #83d8ae;
+    text-align: center;
+    left: 50%;
+    top: 55%;
+    transform: translate(-50%, -50%);
+    z-index: 23;
+}
+.trans-md .buy-coin-md{
+    text-align: center;
+} 
+.trans-md .buy-coin-md .coin-icon{
+    padding: 5px 10px;
+    margin: 15px 15px;
+    box-shadow: 0px 0px 9px 2px #e0e0e0;
+    background: #fff;
+    /* background: linear-gradient(45deg, #00ea7e, #00b8ff); */
+}
+.trans-md .buy-coin-md .coin-icon .co-image{
+    padding: 30px;
+}
+.trans-md .buy-coin-md .coin-icon .co-image img{
+    width: 100px;
+    background: #c38eff;
+    border: 10px solid #efe0ff;
+    border-radius: 100%;
+}
+.trans-md .buy-coin-md .coin-icon .co-content-md{
+    padding: 0 30px;
+}
+.trans-md .buy-coin-md .coin-icon .co-content-md h4{
+    color: #ccc;
+    font-weight: bold;
+    color: #283a5e;
+    margin: 0 0 20px 0;
+}
+.trans-md .buy-coin-md .coin-icon .co-content-md p{
+    font-size: 16px;
+    color: #777;
+    text-align: left;
+}
+.trans-md .buy-coin-md .coin-icon .co-content-md button.read-btn {
+    padding: 10px 30px;
+    border: 0;
+    border-radius: 30px;
+    background-color: #36d291;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    outline: none;
+    transition: all 0.4s ease;
+    margin: 10px 0 50px 0;
+    transition: all 0.4s ease;
+}
+.trans-md .buy-coin-md .coin-icon .co-content-md button.read-btn:hover{
+    background: #a858ff;
+}
+/* trands-md ends here */
+
+/* contact-form css start here */
+.contact-form{
+    padding: 6% 0;
+}
+.contact-form .contact-head h2{
+    text-align: center;
+    font-weight: bold;
+    padding: 0 0 50px 0;
+}
+.contact-form .contact-head h2:before{
+   content: '';
+    position: absolute;
+    width: 100px;
+    height: 4px;
+    background: #c38eff;
+    text-align: center;
+    left: 50%;
+    top: 55%;
+    transform: translate(-50%, -50%);
+    z-index: 23;
+}
+.contact-form .half-form{
+    padding: 30px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.contact-form .half-form form select#inputState {
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 6px;
+    background: #fff;
+    border-radius: 4px;
+}
+.contact-form .vid-md.col-md-6 {
+    display: flex;
+    align-items: center;
+}
+/* contact-form css start here */
+
+/* footer css start here */
+footer{
+    background: #333;
+    padding: 4% 0;
+}
+footer .foot-pages .foot-col .footer-logo img{
+    width: 250px;
+}
+footer .foot-pages .foot-col{
+    padding: 10px 20px;
+}
+footer .foot-pages .foot-col, a {
+    color: #fff;
+}
+
+footer .foot-pages .foot-col li{
+    list-style: none;
+    margin: 10px 0;
+}
+footer .foot-pages .foot-col h2{
+    font-weight: bold;
+    font-size: 30px;
+    margin: 0 0 25px 0;
+}
+/* footer css ends here */
+
+
+
+@media(max-width:768px){
+    #login-dp{
+        background-color: inherit;
+        color: #fff;
+    }
+    #login-dp .bottom{
+        background-color: inherit;
+        border-top:0 none;
+    }
+    nav .navbar-collapse ul.navbar-nav li.nav-item{
+        padding: 0;
+    }
+}
